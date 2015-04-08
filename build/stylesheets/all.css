@@ -104,39 +104,41 @@ body {
     margin-right: 25px; }
     /* line 73, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
     .content_tabs li a {
-      color: #000; }
-  /* line 77, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+      color: #000;
+      cursor: pointer;
+      cursor: hand; }
+  /* line 79, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
   .content_tabs button {
     float: right; }
 
-/* line 82, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 84, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .content_area {
   float: left;
   padding: 0 2%;
   width: 60%; }
-  /* line 86, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  /* line 88, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
   .content_area ul {
     padding: 0px; }
-    /* line 88, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+    /* line 90, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
     .content_area ul li {
       display: inline; }
 
-/* line 95, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 97, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .week h2 {
   border-bottom: 1px solid #191919; }
 
-/* line 100, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 102, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .block {
   background: #f0f0f0;
   margin: 25px 0 25px 0;
   padding: 15px; }
 
-/* line 106, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 108, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .info_column {
   float: left;
   width: 36%; }
 
-/* line 111, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 113, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .course_details, .timeline_overview {
   border: 1px solid #191919;
   float: left;
@@ -144,41 +146,41 @@ body {
   padding: 4%;
   width: 82%; }
 
-/* line 119, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 121, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .timeline_overview {
   margin-top: 25px; }
 
-/* line 124, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 126, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .active {
   display: block; }
 
-/* line 127, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 129, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .inactive {
   display: none; }
 
-/* line 132, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 134, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .grading_content h2 {
   border-bottom: 1px solid #000;
   padding-bottom: 5px; }
-  /* line 135, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  /* line 137, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
   .grading_content h2 span {
     float: right; }
 
-/* line 141, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 143, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .grades {
   border-bottom: 1px solid #787878;
   font-size: 1.3em;
   margin-top: 15px;
   padding-bottom: 12px !important; }
-  /* line 147, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  /* line 149, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
   .grades li:nth-child(2) {
     font-weight: 800;
     float: right; }
 
-/* line 153, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+/* line 155, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
 .grades_total {
   margin-top: 20px; }
-  /* line 155, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  /* line 157, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
   .grades_total li {
     float: right;
     font-size: 1.5em;
