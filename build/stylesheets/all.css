@@ -1,0 +1,185 @@
+/* line 1, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h1, h2, h3, h4, p {
+  margin: 0px; }
+
+/* line 5, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h2 {
+  font-size: 1.2em; }
+
+/* line 9, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px; }
+
+/* line 14, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+p {
+  font-size: 16px;
+  line-height: 20px; }
+
+/* line 19, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+a {
+  text-decoration: none; }
+
+/* line 23, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+ul {
+  margin: 0px;
+  padding: 0px; }
+  /* line 26, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  ul li {
+    list-style: none; }
+
+/* line 31, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+.course_item {
+  margin: 0 0 15px 0; }
+  /* line 33, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  .course_item li:nth-child(1) {
+    font-size: .7em;
+    margin-bottom: 5px;
+    text-transform: uppercase; }
+  /* line 38, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  .course_item li:nth-child(2) {
+    font-size: 1.1em; }
+
+/* line 18, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.clear, body, .navigation, .alert, .grades {
+  clear: both; }
+
+/* line 22, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+body {
+  background: #f3f3f3;
+  margin: 0px auto;
+  max-width: 1200px; }
+
+/* line 29, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.navigation {
+  background: gainsboro;
+  height: 50px;
+  width: 100%; }
+
+/* line 35, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.alert {
+  background: #c8c8c8;
+  height: 60px;
+  width: 100%; }
+  /* line 40, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .alert p {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: left;
+    margin: 0 50px; }
+  /* line 45, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .alert button {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+    margin: 0 50px; }
+
+/* line 52, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.dashboard {
+  background: #fff;
+  float: left;
+  width: 100%; }
+
+/* line 59, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.nav_selected {
+  border-bottom: 2px solid #000; }
+
+/* line 63, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.content_tabs li:nth-child(3) a {
+  color: #c8c8c8; }
+
+/* line 67, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.content_tabs {
+  margin: 50px 0px;
+  width: 100%; }
+  /* line 70, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .content_tabs li {
+    font-size: 1.4em;
+    margin-right: 25px; }
+    /* line 73, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+    .content_tabs li a {
+      color: #000; }
+  /* line 77, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .content_tabs button {
+    float: right; }
+
+/* line 82, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.content_area {
+  float: left;
+  padding: 0 2%;
+  width: 60%; }
+  /* line 86, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .content_area ul {
+    padding: 0px; }
+    /* line 88, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+    .content_area ul li {
+      display: inline; }
+
+/* line 95, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.week h2 {
+  border-bottom: 1px solid #191919; }
+
+/* line 100, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.block {
+  background: #f0f0f0;
+  margin: 25px 0 25px 0;
+  padding: 15px; }
+
+/* line 106, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.info_column {
+  float: left;
+  width: 36%; }
+
+/* line 111, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.course_details, .timeline_overview {
+  border: 1px solid #191919;
+  float: left;
+  margin: 141px 0% 0 5%;
+  padding: 4%;
+  width: 82%; }
+
+/* line 119, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.timeline_overview {
+  margin-top: 25px; }
+
+/* line 124, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.active {
+  display: block; }
+
+/* line 127, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.inactive {
+  display: none; }
+
+/* line 132, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.grading_content h2 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px; }
+  /* line 135, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .grading_content h2 span {
+    float: right; }
+
+/* line 141, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.grades {
+  border-bottom: 1px solid #787878;
+  font-size: 1.3em;
+  margin-top: 15px;
+  padding-bottom: 12px !important; }
+  /* line 147, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .grades li:nth-child(2) {
+    font-weight: 800;
+    float: right; }
+
+/* line 153, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+.grades_total {
+  margin-top: 20px; }
+  /* line 155, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/all.css.scss */
+  .grades_total li {
+    float: right;
+    font-size: 1.5em;
+    font-weight: 800; }

@@ -1,0 +1,41 @@
+/* line 1, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h1, h2, h3, h4, p {
+  margin: 0px; }
+
+/* line 5, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h2 {
+  font-size: 1.2em; }
+
+/* line 9, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px; }
+
+/* line 14, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+p {
+  font-size: 16px;
+  line-height: 20px; }
+
+/* line 19, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+a {
+  text-decoration: none; }
+
+/* line 23, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+ul {
+  margin: 0px;
+  padding: 0px; }
+  /* line 26, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  ul li {
+    list-style: none; }
+
+/* line 31, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+.course_item {
+  margin: 0 0 15px 0; }
+  /* line 33, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  .course_item li:nth-child(1) {
+    font-size: .7em;
+    margin-bottom: 5px;
+    text-transform: uppercase; }
+  /* line 38, /Users/riley/dev/wiki_dashboard_1/source/stylesheets/typography.css.scss */
+  .course_item li:nth-child(2) {
+    font-size: 1.1em; }

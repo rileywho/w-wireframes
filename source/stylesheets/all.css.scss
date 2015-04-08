@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@import 'typography';
+
+$gray-1: rgba(25,25,25,1);
+$gray-2: rgba(200,200,200,1);
+$gray-3: rgba(220,220,220,1);
+$gray-4: rgba(240,240,240,1);
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  @extend .clear;
+  background: #f3f3f3;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.navigation {
+  background: $gray-3;
+  @extend .clear;
+  height: 50px;
+  width: 100%;
+}
+.alert {
+  @extend .clear;
+  background: $gray-2;
+  height: 60px;
+  width: 100%;
+  p {
+    @include vertical-align;
+    float: left;
+    margin: 0 50px;
+  }
+  button {
+    @include vertical-align;
+    float: right;
+    margin: 0 50px;
+  }
+}
+
+.dashboard {
+
+  background: #fff;
+  float: left;
+  width: 100%;
+}
+
+.nav_selected {
+   border-bottom: 2px solid #000;
+}
+
+.content_tabs li:nth-child(3) a {
+    color: $gray-2;
+}
+
+.content_tabs{
+  margin: 50px 0px;
+  width: 100%;
+  li {
+    font-size: 1.4em;
+    margin-right: 25px;
+    a {
+      color: #000;
+    }
+  }
+  button {
+    float: right;
+  }
+}
+
+.content_area {
+  float: left;
+  padding: 0 2%;
+  width: 60%;
+  ul {
+    padding: 0px; 
+    li {
+    display: inline;
+    }
+  }
+}
+
+.week {
+  h2 {
+    border-bottom: 1px solid $gray-1;
+  }
+}
+
+.block {
+  background: $gray-4;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+}
+
+.info_column {
+  float: left;
+  width: 36%;
+}
+
+.course_details {
+  border: 1px solid $gray-1;
+  float: left;
+  margin: 141px 0% 0 5%;
+  padding: 4%;
+  width: 82%;
+}
+
+.timeline_overview {
+  @extend .course_details;
+  margin-top: 25px;
+}
+
+.active {
+  display: block;
+}
+.inactive {
+  display: none;
+}
+
+.grading_content {
+   h2{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    span {
+      float: right;
+    }
+  }
+}
+
+.grades {
+  @extend .clear;
+  border-bottom: 1px solid rgba(120,120,120,1);
+  font-size: 1.3em;
+  margin-top: 15px;
+  padding-bottom: 12px !important;
+  li:nth-child(2) {
+    font-weight: 800;
+    float: right;
+  }
+}
+
+.grades_total {
+  margin-top: 20px;
+  li {
+    float: right;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+}
